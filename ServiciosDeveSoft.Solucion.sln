@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosDeveSoft.Solucion", "ServiciosDeveSoft.Solucion\ServiciosDeveSoft.Solucion.csproj", "{912D944C-2F53-41FC-8639-45E88762350C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosDeveSoft.Data", "ServiciosDeveSoft.Data\ServiciosDeveSoft.Data.csproj", "{22FC4E89-B710-4474-B2CF-BFD65ADF252A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosDeveSoft.Logica", "ServiciosDeveSoft.Logica\ServiciosDeveSoft.Logica.csproj", "{9CD1F64B-1920-4F86-A9CB-32D5840208F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{912D944C-2F53-41FC-8639-45E88762350C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{912D944C-2F53-41FC-8639-45E88762350C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{912D944C-2F53-41FC-8639-45E88762350C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FC4E89-B710-4474-B2CF-BFD65ADF252A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FC4E89-B710-4474-B2CF-BFD65ADF252A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FC4E89-B710-4474-B2CF-BFD65ADF252A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FC4E89-B710-4474-B2CF-BFD65ADF252A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD1F64B-1920-4F86-A9CB-32D5840208F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD1F64B-1920-4F86-A9CB-32D5840208F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD1F64B-1920-4F86-A9CB-32D5840208F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD1F64B-1920-4F86-A9CB-32D5840208F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
