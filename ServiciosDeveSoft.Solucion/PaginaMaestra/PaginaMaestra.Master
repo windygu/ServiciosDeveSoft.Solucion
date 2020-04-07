@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="ServiciosDeveSoft.Solucion.PaginaMaestra.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>DeveSoft</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="../Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../Scripts/popper-utils.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="../scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../scripts/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="../JS/Utililades.js"></script>
+    <script type="text/javascript" src="../JS/Mask.js"></script>
+<%--    <link href="../Estilos/EstilosMaster.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="../scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../scripts/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="../scripts/popper-utils.min.js"></script>
+    <script type="text/javascript" src="../scripts/MensajesPagina.js"></script>
+   
+    <script type="text/javascript" src="../scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../scripts/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="../JS/Utililades.js"></script>
+    <script type="text/javascript" src="../JS/Mask.js"></script>--%>
+
+    <link rel="shortcut icon" href="../Imagenes/Iniciales.ico" />
+
+    <style type="text/css">
+        body{
+	margin:0;
+	color:#6a6f8c;
+	background:url('https://i.pinimg.com/originals/49/4c/6b/494c6b914a7842e7c0e18cb68d41255e.png');
+    background-size:100%;
+   width=100%;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+        .Carrusel {
+           /*margin:10px 50px 500px 500px;
+           width:400px;
+           height:100px;*/
+         }
+
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           <div class="container-fluid">
+               <asp:Image ID="ImgLogo" runat="server" ImageUrl="~/Imagenes/DeveSoft.png" />
+           </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             
+              
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" type="text/javascript"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
