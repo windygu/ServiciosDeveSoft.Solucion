@@ -84,7 +84,7 @@
         <asp:ImageButton ID="ImageButton2" runat="server" CssClass="BotonSolicitud" ToolTip="Desarrollo Web" ImageUrl="~/Imagenes/Desarrollo Web.png" />
         <asp:ImageButton ID="ImageButton3" runat="server" CssClass="BotonSolicitud" ToolTip="Diseño Movil" ImageUrl="~/Imagenes/DesaroloMovil.png" />
         <asp:ImageButton ID="ImageButton4" runat="server" CssClass="BotonSolicitud" ToolTip="Venta de Equipos" ImageUrl="~/Imagenes/Ventas.png" />
-        <asp:ImageButton ID="ImageButton5" runat="server" CssClass="BotonSolicitud" ToolTip="Cursos" ImageUrl="~/Imagenes/Cursos.png" />
+        <asp:ImageButton ID="ImageButton5" runat="server" CssClass="BotonSolicitud" ToolTip="Cursos" ImageUrl="~/Imagenes/Cursos.png" /> 
     </div>
 
 </asp:Content>
